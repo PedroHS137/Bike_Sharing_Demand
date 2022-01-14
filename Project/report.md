@@ -26,21 +26,23 @@ Do a more extensive data analysis in order to get more information about this da
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
-|initial|NeuralNetFastAI_BAG_L2|best_quality|rmse|1.39920|
-|add_features|WeightedEnsemble_L3|best_quality|rmse|0.47165|
-|hpo|num_leaves|dropout_prob|num_boost_round|0.50893|
+|initial|default_vals|default_vals|default_vals|1.39920|
+|add_features|default_vals|default_vals|default_vals|0.47165|
+|hpo|num_leaves: lower=26, upper=66|dropout_prob: 0.0, 0.5|num_boost_round: 100|0.50893|
+
+![hyperparams.PNG](Img/hyperparams.PNG)
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
 TODO: Replace the image below with your own.
 
-![plot1.png](img/plot1.png)
+![plot1.PNG](Img/plot1.PNG)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
 TODO: Replace the image below with your own.
 
-![plot2.png](img/plot2.png)
+![plot2.PNG](Img/plot2.PNG)
 
 ## Summary
 in this project I was able to apply all the concepts that were covered in this unit of the course, by using this skills I was able to develop a machine learning regression model by using the autogluon framework, at the end the results were good because the kaggle score of my model was close to the professional developers with years of experince.
