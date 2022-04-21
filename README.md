@@ -10,4 +10,6 @@ location, and time elapsed is explicitly recorded.
 
 This dataset was provided by Hadi Fanaee Tork in the kaggle platform
 
+Model by Pedro Herrera.
+
 
